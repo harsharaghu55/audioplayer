@@ -1,11 +1,28 @@
+.controls{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
 .controlsButton{
-    background-color:#FF6767;
+    background-color:#2C2E43;
     height:50px;
     width:50px;
     border-radius:50%;
+    box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.63);
+    outline:none;
+    border:none;
+    color:white;
+    font-weight: 600;
+    margin-right:30px;
 }
 
-.volumeInput{
-    background-color:#FF6767;
+input{
     
+}
+.volumeLabel{
+    font-weight:600;
+    color:#2C2E43;
 }
